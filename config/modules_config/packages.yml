@@ -4,12 +4,9 @@ repos:
    - https://copr.fedorainfracloud.org/coprs/swayfx/swayfx/repo/fedora-39/swayfx-swayfx-fedora-39.repo
 install:
    - zsh
-   
-   # sway
-   - swayfx
-    
+  # - swayfx
 remove:
-   - sway
-   - sway-config-fedora
+ # - sway
+ # - sway-config-fedora
    - firefox # default firefox removed in favor of flatpak
    - firefox-langpacks # langpacks needs to also be removed to prevent dependency problems
