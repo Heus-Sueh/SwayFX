@@ -8,7 +8,7 @@ install:
    - gammastep
    
    # kde stuff
-   - polkit-kde
+   #- polkit-kde
    - dolphin
    - kate
    - ark
@@ -27,6 +27,6 @@ install:
 remove:
  # - sway
  # - sway-config-fedora
-   - thunar
+   #- thunar
    - firefox # default firefox removed in favor of flatpak
    - firefox-langpacks # langpacks needs to also be removed to prevent dependency problems
