@@ -1,5 +1,9 @@
 ublue_variants:
-  - label: ublue-os/startingpoint
+  - label: Heus-Sueh/swayfx
     ks: /kickstart/ublue-os.ks
     flavors:
-      - label: startingpoint
+      - label: swayfx
+  - label: Heus-Sueh/swayfx-nvidia
+    ks: /kickstart/ublue-os-nvidia.ks
+    flavors:
+      - label: swayfx-nvidia
