@@ -6,6 +6,9 @@ install:
    - zsh
   # - swayfx
    - gammastep
+   
+   # qt
+   - qt5-qtgraphicaleffects
 remove:
  # - sway
  # - sway-config-fedora
