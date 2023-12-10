@@ -8,6 +8,7 @@ install:
    - gammastep
    
    # kde stuff
+   - polkit-kde
    - dolphin
    - kate
    - ark
