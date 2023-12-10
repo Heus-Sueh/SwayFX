@@ -7,6 +7,11 @@ install:
   # - swayfx
    - gammastep
    
+   # kde stuff
+   - dolphin
+   - kate
+   - ark
+   
    # qt
    - qt5-qtgraphicaleffects
    - qt5-qtquickcontrols
@@ -21,5 +26,6 @@ install:
 remove:
  # - sway
  # - sway-config-fedora
+   - thunar
    - firefox # default firefox removed in favor of flatpak
    - firefox-langpacks # langpacks needs to also be removed to prevent dependency problems
