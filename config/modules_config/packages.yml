@@ -9,6 +9,15 @@ install:
    
    # qt
    - qt5-qtgraphicaleffects
+   - qt5-qtquickcontrols
+   - qt5-qtquickcontrols2
+   - qt5-qtwayland
+   - qt6-qtwayland
+   - qt5ct
+   - qt6ct
+   - qt5-qtsvg
+   - kvantum
+   
 remove:
  # - sway
  # - sway-config-fedora
