@@ -5,6 +5,7 @@ repos:
 install:
    - zsh
   # - swayfx
+   - gammastep
 remove:
  # - sway
  # - sway-config-fedora

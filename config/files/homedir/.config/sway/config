@@ -79,7 +79,7 @@ set 	$term 	kitty
 set 	$menu 	j4-dmenu-desktop --no-generic --dmenu="bemenu -i --prompt 'search' " | xargs swaymsg exec --
 
 ## Output configuration
-output     *   bg      $HOME/pictures/wallpapers/evening-sky.jpeg stretch
+output     *   bg      $HOME/Pictures/Wallpapers/wallpaper.jpeg stretch
 
 # Behavior
 focus_follows_mouse 	yes
